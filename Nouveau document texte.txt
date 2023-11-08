@@ -1,0 +1,64 @@
+
+AZIZ@PCAZIZ MINGW64 ~/Desktop/GIT (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+AZIZ@PCAZIZ MINGW64 ~/Desktop/GIT (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+AZIZ@PCAZIZ MINGW64 ~/Desktop/GIT (master)
+$ git add .
+
+AZIZ@PCAZIZ MINGW64 ~/Desktop/GIT (master)
+$ git commit m 'eeee'
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec 'eeee' did not match any file(s) known to git
+
+AZIZ@PCAZIZ MINGW64 ~/Desktop/GIT (master)
+$ git commit -m "eeeee"
+[master 538dd76] eeeee
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 fourth.text.bmp
+
+AZIZ@PCAZIZ MINGW64 ~/Desktop/GIT (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 246 bytes | 123.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/wiemjebali/third.TEXTE.git
+   02cd5c1..538dd76  master -> master
+branch 'master' set up to track 'origin/master'.
+
+AZIZ@PCAZIZ MINGW64 ~/Desktop/GIT (master)
+$ git add .
+
+AZIZ@PCAZIZ MINGW64 ~/Desktop/GIT (master)
+$ git commit -m "third.texte"
+[master 3f58241] third.texte
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 third.texte.bmp
+
+AZIZ@PCAZIZ MINGW64 ~/Desktop/GIT (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (1/1), done.
+Writing objects: 100% (2/2), 237 bytes | 118.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/wiemjebali/third.TEXTE.git
+   538dd76..3f58241  master -> master
+branch 'master' set up to track 'origin/master'.
+
+AZIZ@PCAZIZ MINGW64 ~/Desktop/GIT (master)
+$
